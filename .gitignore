@@ -18,3 +18,4 @@ _autosave-*
 build/
 *.bin
 *.elf
+*.lck
