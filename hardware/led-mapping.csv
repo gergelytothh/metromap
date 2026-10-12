@@ -1,0 +1,97 @@
+led,line,stop,station,direction,terminus,chip,dig,seg
+1,M1,1,Vörösmarty tér,forward,yes,U1,DIG0,SEG_A
+2,M1,2,Deák Ferenc tér,forward,,U1,DIG1,SEG_A
+3,M1,2,Deák Ferenc tér,backward,,U1,DIG2,SEG_A
+4,M1,3,Bajcsy-Zsilinszky út,forward,,U1,DIG3,SEG_A
+5,M1,3,Bajcsy-Zsilinszky út,backward,,U1,DIG4,SEG_A
+6,M1,4,Opera,forward,,U1,DIG5,SEG_A
+7,M1,4,Opera,backward,,U1,DIG6,SEG_A
+8,M1,5,Oktogon,forward,,U1,DIG0,SEG_B
+9,M1,5,Oktogon,backward,,U1,DIG1,SEG_B
+10,M1,6,Vörösmarty utca,forward,,U1,DIG2,SEG_B
+11,M1,6,Vörösmarty utca,backward,,U1,DIG3,SEG_B
+12,M1,7,Kodály körönd,forward,,U1,DIG4,SEG_B
+13,M1,7,Kodály körönd,backward,,U1,DIG5,SEG_B
+14,M1,8,Bajza utca,forward,,U1,DIG6,SEG_B
+15,M1,8,Bajza utca,backward,,U1,DIG7,SEG_B
+16,M1,9,Hősök tere,forward,,U1,DIG0,SEG_C
+17,M1,9,Hősök tere,backward,,U1,DIG1,SEG_C
+18,M1,10,Széchenyi fürdő,forward,,U1,DIG2,SEG_C
+19,M1,10,Széchenyi fürdő,backward,,U1,DIG3,SEG_C
+20,M1,11,Mexikói út,forward,yes,U1,DIG4,SEG_C
+21,M2,1,Déli pályaudvar,forward,yes,U1,DIG0,SEG_D
+22,M2,2,Széll Kálmán tér,forward,,U1,DIG1,SEG_D
+23,M2,2,Széll Kálmán tér,backward,,U1,DIG2,SEG_D
+24,M2,3,Batthyány tér,forward,,U1,DIG3,SEG_D
+25,M2,3,Batthyány tér,backward,,U1,DIG4,SEG_D
+26,M2,4,Kossuth Lajos tér,forward,,U1,DIG5,SEG_D
+27,M2,4,Kossuth Lajos tér,backward,,U1,DIG6,SEG_D
+28,M2,5,Deák Ferenc tér,forward,,U1,DIG0,SEG_E
+29,M2,5,Deák Ferenc tér,backward,,U1,DIG1,SEG_E
+30,M2,6,Astoria,forward,,U1,DIG2,SEG_E
+31,M2,6,Astoria,backward,,U1,DIG3,SEG_E
+32,M2,7,Blaha Lujza tér,forward,,U1,DIG4,SEG_E
+33,M2,7,Blaha Lujza tér,backward,,U1,DIG5,SEG_E
+34,M2,8,Keleti pályaudvar,forward,,U1,DIG6,SEG_E
+35,M2,8,Keleti pályaudvar,backward,,U1,DIG7,SEG_E
+36,M2,9,Puskás Ferenc Stadion,forward,,U1,DIG0,SEG_F
+37,M2,9,Puskás Ferenc Stadion,backward,,U1,DIG1,SEG_F
+38,M2,10,Pillangó utca,forward,,U1,DIG2,SEG_F
+39,M2,10,Pillangó utca,backward,,U1,DIG3,SEG_F
+40,M2,11,Örs vezér tere,forward,yes,U1,DIG4,SEG_F
+41,M3,1,Kőbánya-Kispest,forward,yes,U2,DIG0,SEG_A
+42,M3,2,Határ út,forward,,U2,DIG1,SEG_A
+43,M3,2,Határ út,backward,,U2,DIG2,SEG_A
+44,M3,3,Pöttyös utca,forward,,U2,DIG3,SEG_A
+45,M3,3,Pöttyös utca,backward,,U2,DIG4,SEG_A
+46,M3,4,Ecseri út,forward,,U2,DIG5,SEG_A
+47,M3,4,Ecseri út,backward,,U2,DIG6,SEG_A
+48,M3,5,Népliget,forward,,U2,DIG0,SEG_B
+49,M3,5,Népliget,backward,,U2,DIG1,SEG_B
+50,M3,6,Nagyvárad tér,forward,,U2,DIG2,SEG_B
+51,M3,6,Nagyvárad tér,backward,,U2,DIG3,SEG_B
+52,M3,7,Klinikák,forward,,U2,DIG4,SEG_B
+53,M3,7,Klinikák,backward,,U2,DIG5,SEG_B
+54,M3,8,Corvin-negyed,forward,,U2,DIG6,SEG_B
+55,M3,8,Corvin-negyed,backward,,U2,DIG7,SEG_B
+56,M3,9,Kálvin tér,forward,,U2,DIG0,SEG_C
+57,M3,9,Kálvin tér,backward,,U2,DIG1,SEG_C
+58,M3,10,Ferenciek tere,forward,,U2,DIG2,SEG_C
+59,M3,10,Ferenciek tere,backward,,U2,DIG3,SEG_C
+60,M3,11,Deák Ferenc tér,forward,,U2,DIG4,SEG_C
+61,M3,11,Deák Ferenc tér,backward,,U2,DIG5,SEG_C
+62,M3,12,Arany János utca,forward,,U2,DIG6,SEG_C
+63,M3,12,Arany János utca,backward,,U2,DIG7,SEG_C
+64,M3,13,Nyugati pályaudvar,forward,,U2,DIG0,SEG_D
+65,M3,13,Nyugati pályaudvar,backward,,U2,DIG1,SEG_D
+66,M3,14,Lehel tér,forward,,U2,DIG2,SEG_D
+67,M3,14,Lehel tér,backward,,U2,DIG3,SEG_D
+68,M3,15,Dózsa György út,forward,,U2,DIG4,SEG_D
+69,M3,15,Dózsa György út,backward,,U2,DIG5,SEG_D
+70,M3,16,Árpád híd,forward,,U2,DIG6,SEG_D
+71,M3,16,Árpád híd,backward,,U2,DIG7,SEG_D
+72,M3,17,Forgách utca,forward,,U2,DIG0,SEG_E
+73,M3,17,Forgách utca,backward,,U2,DIG1,SEG_E
+74,M3,18,Gyöngyösi utca,forward,,U2,DIG2,SEG_E
+75,M3,18,Gyöngyösi utca,backward,,U2,DIG3,SEG_E
+76,M3,19,Újpest-városkapu,forward,,U2,DIG4,SEG_E
+77,M3,19,Újpest-városkapu,backward,,U2,DIG5,SEG_E
+78,M3,20,Újpest-Központ,forward,yes,U2,DIG6,SEG_E
+79,M4,1,Kelenföld vasútállomás,forward,yes,U2,DIG0,SEG_F
+80,M4,2,Bikás park,forward,,U2,DIG1,SEG_F
+81,M4,2,Bikás park,backward,,U2,DIG2,SEG_F
+82,M4,3,Újbuda-központ,forward,,U2,DIG3,SEG_F
+83,M4,3,Újbuda-központ,backward,,U2,DIG4,SEG_F
+84,M4,4,Móricz Zsigmond körtér,forward,,U2,DIG5,SEG_F
+85,M4,4,Móricz Zsigmond körtér,backward,,U2,DIG6,SEG_F
+86,M4,5,Szent Gellért tér,forward,,U2,DIG0,SEG_G
+87,M4,5,Szent Gellért tér,backward,,U2,DIG1,SEG_G
+88,M4,6,Fővám tér,forward,,U2,DIG2,SEG_G
+89,M4,6,Fővám tér,backward,,U2,DIG3,SEG_G
+90,M4,7,Kálvin tér,forward,,U2,DIG4,SEG_G
+91,M4,7,Kálvin tér,backward,,U2,DIG5,SEG_G
+92,M4,8,Rákóczi tér,forward,,U2,DIG6,SEG_G
+93,M4,8,Rákóczi tér,backward,,U2,DIG7,SEG_G
+94,M4,9,II. János Pál pápa tér,forward,,U2,DIG0,SEG_DP
+95,M4,9,II. János Pál pápa tér,backward,,U2,DIG1,SEG_DP
+96,M4,10,Keleti pályaudvar,forward,yes,U2,DIG2,SEG_DP

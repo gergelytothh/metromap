@@ -1,0 +1,20 @@
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office lock files (e.g. "~$metro map mapping.xlsx")
+~$*
+
+# KiCAD backups, caches and local settings
+*-backups/
+*.bak
+*.kicad_prl
+fp-info-cache
+_autosave-*
+\#auto_saved_files#
+
+# Arduino / build output
+build/
+*.bin
+*.elf
