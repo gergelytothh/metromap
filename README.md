@@ -79,3 +79,7 @@ More in the [bring-up log](docs/bring-up-log.md), including how the datasheet co
 
 - **Live trains.** I chose the ESP32 for its built-in Wi-Fi. The plan is to fetch data from BKK's open API using an API key. As it turns out, BKK doesn't publish live positions for metro trains, only a timetable that's updated in real time, so the map has to work out where each train is from that.
 - **Turning a timetable into train positions.** This is the tricky part. Using the timetable directly, a train could disappear between two stations, or appear at several at once. Each train has to be tracked so that it's always shown at exactly one station: the last station it departed from, until its scheduled departure from the next one.
+
+## Acknowledgements
+
+The firmware and this README were developed in collaboration with Claude and Claude Code. The hardware design, PCB, wiring and testing are my own.
