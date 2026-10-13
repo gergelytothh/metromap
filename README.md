@@ -1,10 +1,5 @@
 # Metromap
 
-<!--
-OUTLINE ONLY - replace every comment with your own words, then delete the comment.
-Aim: a recruiter understands the project within a minute. Short is fine.
--->
-
 ![Metromap with all LEDs lit](docs/images/map-lit.jpg)
 
 A map of the Budapest metro, designed to show trains moving on all four lines. There are 96 LEDs on the map: two at each station (one per direction) and one at each terminus. They are hand-wired and soldered onto the map and driven by an ESP32 through a custom PCB. Right now it runs a simulated train animation; live data from BKK is the next step.
@@ -76,7 +71,9 @@ Pick the mode in `loop()`: `trainMode()` runs the train animation, and `walkTest
 
 ## What went wrong and how I fixed it
 
-<!-- Best entry from docs/bring-up-log.md: symptom, suspicion, measurement, cause. -->
+For a long time the addressing didn't work: telling the firmware to light a specific DIG/SEG lit the wrong LED. I lit one address at a time and wrote down which LED actually came on, until a pattern appeared: the MD_MAX72xx library numbers the columns in a different order from the chip's SEG pins. SEG_A is column 6, down to SEG_G at column 0, and only SEG_DP stays at column 7. I then tested that theory LED by LED, and it held. The fix is a single line in [metromap.ino](firmware/metromap/metromap.ino).
+
+More in the [bring-up log](docs/bring-up-log.md), including how the datasheet corrected my assumption about the shared ISET resistor.
 
 ## What's next
 
