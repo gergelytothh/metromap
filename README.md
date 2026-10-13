@@ -65,8 +65,14 @@ Design files: [schematic (PDF)](hardware/Metromap%20schematic.pdf) · [KiCAD pro
 
 ## Build and flash
 
-<!-- Arduino IDE version, ESP32 board package, MD_MAX72xx (or whichever library
-     you end up using), board selection, which sketch to open. -->
+Built with Arduino IDE 2.3.10 and the Espressif ESP32 board package 3.3.12.
+
+1. Install the **MD_MAX72xx** library (by majicDesigns, tested with 3.5.1) from the Library Manager.
+2. Open `firmware/metromap/metromap.ino`.
+3. Select **Tools → Board → ESP32 Dev Module** and the ESP32's serial port.
+4. Upload.
+
+Pick the mode in `loop()`: `trainMode()` runs the train animation, and `walkTest()` lights every LED in turn and prints each station to the Serial Monitor (115200 baud).
 
 ## What went wrong and how I fixed it
 
