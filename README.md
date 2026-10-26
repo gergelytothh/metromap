@@ -37,7 +37,7 @@ I designed the driver PCB myself in KiCAD and had it made by NYÁKÁRUHÁZ Kft. 
 
 ![The finished map with the driver board and ESP32](docs/images/map-overview.jpg)
 
-From each pad, a wire runs to the back of the map, where it connects to the right LEDs. That's around 150 solder joints in total, all by hand.
+From each pad, a wire runs to the back of the map, where it connects to the right LEDs. That's around ~280 solder joints in total, all by hand.
 
 ![The rear wiring](docs/images/rear-wiring.jpg)
 *The back of the map. Every wire is labelled in pencil with its DIG/SEG line.*
